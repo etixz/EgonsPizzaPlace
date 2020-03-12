@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">EgonsPizzaPlace</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="str_btn_toppings">Choose Toppings</string>
+    <string name="str_btn_size">Choose pizza size</string>
+    <string name="str_tv_selectsize">Selected size:</string>
+    <string name="str_tv_selectedSize" />
+    <string name="str_tv_selectToppings">Selected Toppings:</string>
+</resources>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav"
+    app:startDestination="@id/smallPizzaFragment">
+
+    <fragment
+        android:id="@+id/smallPizzaFragment"
+        android:name="eb.egonb.egonspizzaplace.fragments.SmallPizzaFragment"
+        android:label="fragment_small_pizza"
+        tools:layout="@layout/fragment_small_pizza" />
+    <fragment
+        android:id="@+id/mediumPizzaFragment"
+        android:name="eb.egonb.egonspizzaplace.fragments.MediumPizzaFragment"
+        android:label="fragment_medium_pizza"
+        tools:layout="@layout/fragment_medium_pizza" />
+    <fragment
+        android:id="@+id/largePizzaFragment"
+        android:name="eb.egonb.egonspizzaplace.fragments.LargePizzaFragment"
+        android:label="fragment_large_pizza"
+        tools:layout="@layout/fragment_large_pizza" />
+</navigation>
